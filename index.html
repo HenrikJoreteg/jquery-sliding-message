@@ -7,40 +7,19 @@
             $(function() {
                 var options = {'speed': 50,
                                'backgroundColor': 'rgba(143, 177, 240, 0.8)',
-                               'delay': 3000 };
+                               'delay': 3000,
+                               'fontSize': '60px' };
                 
+                // just to give us something to click to trigger it
                 $('button').click(function(){
-                    input_val = $('#text').val();
-                
-                    $('test').showMessage(input_val, options);
-                
-                    console.log(input_val);
-                
+                    $('test').showMessage("Testing this awesome thing!", options);
                     return false;
                 });
             });
         </script>
-        <style>
-            #message_box {
-              position: fixed;
-              bottom: -90px;
-              left: 0;
-              padding: 20px 0;
-              text-align: left;
-              background-color: green;
-              width: 100%;
-              font-size: 30px;
-              z-index: 999;
-             }
-            
-        </style>
     </head>
 </html>
 <body>
     <h1>Demo</h1>
-    <p>Enter a message, and hit enter to show.</p>
-    <form>
-        <input type="text" id="text" value="test"/>
-    </form>
     <button id="button">click me</button>
 </body>
