@@ -1,8 +1,8 @@
-(function($) {
-    $.fn.showMessage = function(message, options){
+(function() {
+    jQuery.showMessage = function(message, options){
         // defaults
         settings = jQuery.extend({
-             id: 'message_box',
+             id: 'slider_message_box',
              position: 'bottom',
              size: '90',
              backgroundColor: 'rgb(143, 177, 240)',
@@ -21,6 +21,7 @@
             elem.css({'z-index': '999',
                       'background-color': settings.backgroundColor,
                       'text-align': 'center',
+                      'position': 'absolute',
                       'position': 'fixed',
                       'left': '0',
                       'width': '100%',

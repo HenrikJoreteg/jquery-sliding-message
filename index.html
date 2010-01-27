@@ -7,7 +7,7 @@
             $(function() {    
                 // on first button click, use all the defaults
                 $('#button1').click(function(){
-                    $().showMessage("Testing this awesome thing!");
+                    $.showMessage("This is the default behavior");
                     return false;
                 });
                 
@@ -22,7 +22,7 @@
                                    fontSize: '30px'
                                   };
                                    
-                    $().showMessage("Testing this awesome thing!", options);
+                    $.showMessage("This is with options!", options);
                     return false;
                 });
             });
