@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery Magic Labels Plugin by Henrik Joreteg | {{ page.title }}</title>
+        <link href="http://projects.joreteg.com/static/reset.css" rel="stylesheet" type="text/css" />
+        <link href="http://projects.joreteg.com/static/styles.css" rel="stylesheet" type="text/css" />
+        <link href="http://projects.joreteg.com/static/syntax.css" rel="stylesheet" type="text/css" />
+        <script src="http://www.google.com/jsapi"></script>
+        <script>
+            google.load("jquery", "1.3");
+        </script>
+    </head>
+</html>
+<body>
+    {{ content }}
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-1196801-4");
+            pageTracker._setDomainName(".joreteg.com");
+            pageTracker._trackPageview();
+        } 
+        catch(err) {}
+    </script>
+</body>
