@@ -2,7 +2,7 @@
     jQuery.showMessage = function(message, options){
         // defaults
         settings = jQuery.extend({
-             id: 'slider_message_box',
+             id: 'sliding_message_box',
              position: 'bottom',
              size: '90',
              backgroundColor: 'rgb(143, 177, 240)',
