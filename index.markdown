@@ -7,7 +7,7 @@ title: Home
 This plugin provides a cool way to temporarily display messages to the user.
 
 ## Demo
-[See a live demo](index.html);
+[See a live demo](demo.html);
 
 ## Basic Usage
 Using it couldn't be simpler:
