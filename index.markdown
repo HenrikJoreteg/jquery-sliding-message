@@ -41,20 +41,20 @@ Using it couldn't be simpler:
 
 This almost goes without saying, but make sure you have jQuery and the plugin imported (jQuery first). Something like:
 
-<code>
+
 {% highlight html %}
     <script src="jquery.js"></script>
     <script src="jquery.slidingmessage.js"></script>
 {% endhighlight %}
-</code>
+
 
 Then you can just call it like this anywhere in your javascript:
 
-<code>
+
 {% highlight javascript %}
     $.showMessage("message to display");
 {% endhighlight %}    
-</code>
+
 
 A box with your message will slide into view from the bottom of the page (by default) with your message and will hide itself after a short pause.
 
@@ -64,7 +64,7 @@ The following are optional paramaters:
 
 In the following example where we're setting all available options, but you can do as few as you want, or of course, none:
 
-<code>
+
 {% highlight javascript %}
     var options = {id: 'message_from_top',
                    position: 'top',
@@ -77,7 +77,7 @@ In the following example where we're setting all available options, but you can 
                
     $.showMessage("This is with options!", options);
 {% endhighlight %}
-</code>
+
 
 ## Additional Styling
 Some styles such as font size and height make sense to set in the javascript. But you can set font family or whatever else you want by writing a rule in your CSS to match the sliding box div. By default the div `id` attribute is `sliding_message_box`. But you can set the id to be whatever you want by passing that in through the options.
