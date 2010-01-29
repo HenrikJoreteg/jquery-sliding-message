@@ -21,7 +21,7 @@ This plugin provides a cool way to temporarily display messages to the user.
             var options = {id: 'message_from_top',
                            position: 'top',
                            size: 50,
-                           backgroundColor: 'rgba(70, 70, 70, 0.8)',
+                           backgroundColor: 'rgba(200, 70, 70, 0.8)',
                            delay: 1500,
                            speed: 500,
                            fontSize: '30px'
@@ -43,8 +43,8 @@ This almost goes without saying, but make sure you have jQuery and the plugin im
 
 
 {% highlight html %}
-    <script src="jquery.js"></script>
-    <script src="jquery.slidingmessage.js"></script>
+<script src="jquery.js"></script>
+<script src="jquery.slidingmessage.js"></script>
 {% endhighlight %}
 
 
@@ -52,7 +52,7 @@ Then you can just call it like this anywhere in your javascript:
 
 
 {% highlight javascript %}
-    $.showMessage("message to display");
+$.showMessage("message to display");
 {% endhighlight %}    
 
 
@@ -66,16 +66,16 @@ In the following example where we're setting all available options, but you can 
 
 
 {% highlight javascript %}
-    var options = {id: 'message_from_top',
-                   position: 'top',
-                   size: 50,
-                   backgroundColor: 'rgba(70, 70, 70, 0.8)',
-                   delay: 1500,
-                   speed: 500,
-                   fontSize: '30px'
-                  };
+var options = {id: 'message_from_top',
+               position: 'top',
+               size: 50,
+               backgroundColor: 'rgba(70, 70, 70, 0.8)',
+               delay: 1500,
+               speed: 500,
+               fontSize: '30px'
+              };
                
-    $.showMessage("This is with options!", options);
+$.showMessage("This is with options!", options);
 {% endhighlight %}
 
 
