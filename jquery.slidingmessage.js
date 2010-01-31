@@ -26,7 +26,7 @@
                       'left': '0',
                       'width': '100%',
                       'line-height': settings.size + 'px',
-                      'font-size': settings.fontSize,
+                      'font-size': settings.fontSize
                       });
             
             $('body').append(elem);
@@ -46,6 +46,5 @@
             delayed = '$(' + settings.id + ').animate({top:"-' + settings.size + 'px"}, ' + settings.speed + ');';
             setTimeout(delayed, settings.delay);
         }
-        
     }
 })(jQuery);
