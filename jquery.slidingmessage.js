@@ -37,13 +37,13 @@
         if(settings.position == 'bottom'){
             elem.css('bottom', '-' + settings.size + 'px');
             elem.animate({bottom:'0'}, settings.speed);
-            delayed = '$(' + settings.id + ').animate({bottom:"-' + settings.size + 'px"}, ' + settings.speed + ');';
+            delayed = '$("#' + settings.id + '").animate({bottom:"-' + settings.size + 'px"}, ' + settings.speed + ');';
             setTimeout(delayed, settings.delay);
         }
         else if(settings.position == 'top'){
             elem.css('top', '-' + settings.size + 'px');
             elem.animate({top:'0'}, settings.speed);
-            delayed = '$(' + settings.id + ').animate({top:"-' + settings.size + 'px"}, ' + settings.speed + ');';
+            delayed = '$("#' + settings.id + '").animate({top:"-' + settings.size + 'px"}, ' + settings.speed + ');';
             setTimeout(delayed, settings.delay);
         }
     }
