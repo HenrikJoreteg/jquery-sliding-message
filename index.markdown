@@ -4,6 +4,8 @@ title: Home
 ---
 
 # jQuery Message Slider Plugin
+by [Henrik Joreteg](http://joreteg.com)
+
 This plugin provides a cool way to temporarily display messages to the user.
 
 ## Demo
@@ -84,3 +86,7 @@ Some styles such as font size and height make sense to set in the javascript. Bu
 
 ## Compatibility Note
 This plugin uses the CSS property `position: fixed;` in order to support messages from the bottom of the viewport. However, it uses `position: absolute` as a fall-back. So if you have to have support in earlier versions of IE or on an iPhone you can simply set the option to slide in from the top. As long as the user isn't scrolled down it should work just fine.
+
+## License
+[BSD License](http://projects.joreteg.com/licenses/BSD.html)
+
