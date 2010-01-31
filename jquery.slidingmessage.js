@@ -11,26 +11,22 @@
              fontSize: '30px'
         }, options);        
         
-        var elem = $('#' + settings.id);
-        var delayed;
+        var elem, delayed;
         
-        // generate message div if it doesn't exist
-        if(elem.length == 0){
-            elem = $('<div></div>').attr('id', settings.id);
-            
-            elem.css({'z-index': '999',
-                      'background-color': settings.backgroundColor,
-                      'text-align': 'center',
-                      'position': 'absolute',
-                      'position': 'fixed',
-                      'left': '0',
-                      'width': '100%',
-                      'line-height': settings.size + 'px',
-                      'font-size': settings.fontSize,
-                      });
-            
-            $('body').append(elem);
-        }
+        elem = $('<div></div>').attr('id', settings.id);
+        
+        elem.css({'z-index': '999',
+                  'background-color': settings.backgroundColor,
+                  'text-align': 'center',
+                  'position': 'absolute',
+                  'position': 'fixed',
+                  'left': '0',
+                  'width': '100%',
+                  'line-height': settings.size + 'px',
+                  'font-size': settings.fontSize,
+                  });
+        
+        $('body').append(elem);
         
         elem.html(message);
         
@@ -47,5 +43,6 @@
             setTimeout(delayed, settings.delay);
         }
         
+        elem.remove();
     }
 })(jQuery);
