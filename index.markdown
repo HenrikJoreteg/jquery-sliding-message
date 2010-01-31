@@ -9,6 +9,9 @@ by [Henrik Joreteg](http://joreteg.com)
 
 This plugin provides a cool way to temporarily display messages to the user.
 
+## Download
+[http://github.com/HenrikJoreteg/jquery-sliding-message/downloads](http://github.com/HenrikJoreteg/jquery-sliding-message/downloads)
+
 ## Demo
 
 <script>
