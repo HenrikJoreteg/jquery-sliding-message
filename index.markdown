@@ -86,7 +86,11 @@ $.showMessage("This is with options!", options);
 Some styles such as font size and height make sense to set in the javascript. But you can set font family or whatever else you want by writing a rule in your CSS to match the sliding box div. By default the div `id` attribute is `sliding_message_box`. But you can set the id to be whatever you want by passing that in through the options.
 
 ## Compatibility Note
-This plugin uses the CSS property `position: fixed;` in order to support messages from the bottom of the viewport. However, it uses `position: absolute` as a fall-back. So if you have to have support in earlier versions of IE or on an iPhone you can simply set the option to slide in from the top. As long as the user isn't scrolled down it should work just fine.
+This plugin uses the CSS property `position: fixed;` in order to support messages from the bottom of the viewport. However, it uses `position: absolute` as a fall-back. So if you have to have support for earlier versions of IE or on an iPhone you can simply set the option to slide in from the top. As long as the user isn't scrolled down it should work just fine.
+
+Tested in FF, Chrome, IE7+, Safari. 
+
+IE6 should work for sliding in from the top, but I haven't tested it, and I don't care, because IE6 should die anyways =)
 
 ## License
 [BSD License](http://projects.joreteg.com/licenses/BSD.html)
