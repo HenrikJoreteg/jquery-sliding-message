@@ -11,8 +11,6 @@ This plugin provides a cool way to temporarily display messages to the user.
 
 ## Demo
 
-<script src="http://github.com/HenrikJoreteg/jquery-sliding-message/raw/master/jquery.slidingmessage.js"></script>
-
 <script>
     $(function() {    
         // on first button click, use all the defaults
