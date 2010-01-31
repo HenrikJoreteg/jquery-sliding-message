@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# jQuery Message Slider Plugin
+# jQuery Sliding Message Plugin
 by [Henrik Joreteg](http://joreteg.com)
 
 This plugin provides a cool way to temporarily display messages to the user.
